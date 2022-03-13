@@ -1,0 +1,15 @@
+@import "./index.scss";
+
+.App {
+  height: 100vh;
+  width: 100%;
+  background-color: $dark-cyan;
+  //   background-image: top url("./images/bg-pattern-bottom.svg"),
+  //     bottom url("./images/bg-pattern-top.svg");
+  background: top 200% left -50% url("./images/bg-pattern-top.svg"),
+    bottom 200% right -50% url("./images/bg-pattern-bottom.svg") $dark-cyan;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
