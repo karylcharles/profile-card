@@ -14,15 +14,15 @@ class Card extends Component{
                 </div>
                 <div className='Card-bottom'>
                     <div>
-                        <span className='Card-bottom__stats'>80k</span>
+                        <span className='Card-bottom__stats'>80K</span>
                         <span className='Card-bottom__numbers'>Followers</span>
                     </div>
                     <div>
-                        <span className='Card-bottom__stats'>803k</span>
+                        <span className='Card-bottom__stats'>803K</span>
                         <span className='Card-bottom__numbers'>Likes</span>
                     </div>
                     <div>
-                        <span className='Card-bottom__stats'>1.4k</span>
+                        <span className='Card-bottom__stats'>1.4K</span>
                         <span className='Card-bottom__numbers'>Photos</span>
                     </div>
                 </div>
